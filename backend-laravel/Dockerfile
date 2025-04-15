@@ -30,9 +30,6 @@ COPY . .
 # Install Composer dependencies
 RUN composer install --no-ansi --no-dev --no-interaction --no-progress --optimize-autoloader --ignore-platform-reqs
 
-# Copy environment file
-COPY .env .env
-
 # Generate application key
 RUN php artisan key:generate
 
