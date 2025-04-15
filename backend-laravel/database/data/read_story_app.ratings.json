@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "67d40da48226e6b5479362c0"
+  },
+  "userId": "67d403618602646fbd40ef12",
+  "storyId": "c5nd",
+  "rating": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dd0ffd3ea52e5a08040bb9"
+  },
+  "userId": "67d403618602646fbd40ef12",
+  "storyId": "0syW8",
+  "rating": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de68a7bf7a9c00080f1a11"
+  },
+  "userId": "677d57150e6ab3df7a917ae8",
+  "storyId": "xqXdA",
+  "rating": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67deeab6a23e5b66d54347b8"
+  },
+  "userId": "67d403618602646fbd40ef12",
+  "storyId": "xqXdA",
+  "rating": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e11caf1e4609f3030f3f37"
+  },
+  "userId": "67d403618602646fbd40ef12",
+  "storyId": "d6nd",
+  "rating": 3,
+  "__v": 0
+}]

@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "677c9fe9354c2ec44c24a9c6"
+  },
+  "storyId": "d6nd",
+  "title": "Attack on Titan",
+  "author": "Hajime Isayama",
+  "description": "Nhân loại chiến đấu chống lại các Titan khổng lồ để sinh tồn.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhWWsqULxxZ6MXCq7RHcQ7XFyrFRRIZzjbuQ&s",
+  "genreIds": [
+    6,
+    1,
+    4
+  ],
+  "releaseDate": {
+    "$date": "2025-03-24T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677c9fe9354c2ec44c24a9c5"
+  },
+  "storyId": "c5nd",
+  "title": "Naruto",
+  "author": "Masashi Kishimoto",
+  "description": "Cuộc hành trình của Naruto Uzumaki để trở thành Hokage mạnh nhất.",
+  "coverImage": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+  "genreIds": [
+    2,
+    4
+  ],
+  "releaseDate": {
+    "$date": "2025-03-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677c9fe9354c2ec44c24a9c7"
+  },
+  "storyId": "e7nd",
+  "title": "Demon Slayer",
+  "author": "Koyoharu Gotouge",
+  "description": "Tanjiro Kamado chiến đấu chống lại quỷ dữ để bảo vệ gia đình.",
+  "coverImage": "https://res.cloudinary.com/luto-manga/image/upload/v1742372765/listmanga/Demon_Slayer/background/cover.png",
+  "genreIds": [
+    5,
+    1
+  ],
+  "releaseDate": {
+    "$date": "2025-03-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677c9fe9354c2ec44c24a9c4"
+  },
+  "storyId": "b4nd",
+  "title": "One Piece",
+  "author": "Eiichiro Oda",
+  "description": "Câu chuyện về Monkey D. Luffy và hành trình tìm kiếm kho báu One Piece.",
+  "coverImage": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genreIds": [
+    1,
+    5
+  ],
+  "releaseDate": {
+    "$date": "1997-07-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da6e704604acbc1567edb9"
+  },
+  "storyId": "xqXdA",
+  "title": "Dragon Ball",
+  "author": "Akira Toriyama",
+  "description": "Câu chuyện bắt đầu với Son Goku, một cậu bé có đuôi khỉ, sống một mình trong rừng. Cậu gặp Bulma, một cô gái đang tìm kiếm 7 viên ngọc rồng – khi tập hợp đủ, chúng có thể triệu hồi rồng thần Shenron để thực hiện một điều ước.",
+  "coverImage": "https://res.cloudinary.com/luto-manga/image/upload/v1742372791/listmanga/Dragon_Ball/background/cover.png",
+  "genreIds": [
+    1,
+    2
+  ],
+  "releaseDate": {
+    "$date": "2025-03-22T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67da801ad59fecd1af43c475"
+  },
+  "storyId": "0syW8",
+  "title": "Bleach",
+  "author": "Tite Kubo",
+  "description": "Bleach kể về hành trình của Kurosaki Ichigo, một thiếu niên có khả năng nhìn thấy linh hồn, vô tình nhận được sức mạnh của một Shinigami và bị cuốn vào cuộc chiến giữa các linh hồn và Hollow.",
+  "coverImage": "https://res.cloudinary.com/luto-manga/image/upload/v1742372889/listmanga/Bleach/background/cover.png",
+  "genreIds": [
+    1,
+    2
+  ],
+  "releaseDate": {
+    "$date": "2025-03-19T00:00:00.000Z"
+  },
+  "__v": 0
+}]
