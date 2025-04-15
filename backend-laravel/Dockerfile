@@ -13,7 +13,13 @@ RUN apk update && apk add --no-cache \
 
 # Install PHP extensions
 RUN docker-php-ext-install -j$(nproc) gd \
-    pdo_mysql
+    pdo_mysql \
+    bcmath \
+    curl \
+    mbstring \
+    openssl \
+    xml \
+    zip
 
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
@@ -22,7 +28,10 @@ COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 COPY . .
 
 # Install Composer dependencies
-RUN composer install --no-ansi --no-dev --no-interaction --no-progress --optimize-autoloader
+RUN composer install --no-ansi --no-dev --no-interaction --no-progress --optimize-autoloader --ignore-platform-reqs
+
+# Copy environment file
+COPY .env .env
 
 # Generate application key
 RUN php artisan key:generate
